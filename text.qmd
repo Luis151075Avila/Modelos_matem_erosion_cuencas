@@ -1,0 +1,44 @@
+---
+title: "Modelación computacional de procesos erosivos"
+subtitle: "EDTPI"
+author: 
+  - name: "Luis Alberto Avila Borja"
+    affiliation: "VortexLAB Laboratorio Avanzado de hidrología computacional"
+date: today
+lang: es
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: show
+    code-tools: true
+    theme: cosmo
+    number-sections: true
+    fig-width: 9
+    fig-height: 6
+    embed-resources: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    geometry: margin=1in
+    fig-width: 7
+    fig-height: 5
+execute:
+  echo: false
+  warning: false
+  message: false
+#jupyter: env_landlab
+---
+
+# Consideraciones
+
+La ingeniería de recursos hídricos es altamente compleja y sujeta alta incertidumbre en el análisis de procesos. Los modelos matemáticos respaldan la toma de decisiones basada en evidencia en la gestión de cuencas y operación de presas, combinando datos de campo con principios de hidrología computacional e hidrogeología.
+
+{{< embed erosion-El_Molino_T2-D1.ipynb#fig-tasa_ero >}}
+
+# Conclusiones
+
+La modelación matemática de procesos erosivos permite reducir la incertidumbre en el análisis y evaluación de la viabilidad de proyectos de presas.
+
+---
